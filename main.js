@@ -1,10 +1,9 @@
 const headline = document.querySelector('h1');
 
-headline.style.font = 'italic bold  comic sans ms,serif';
+headline.style.fontFamily = "Impact,arial,sans-serif";
 headline.style.color = 'brown';
 headline.style.textShadow = '22px 2px 5px green';
-headline.style.letterSpacing= '-50px';
-headline.style.scrol
+headline.style.letterSpacing= '-30px';
 
 const paragraph = document.querySelector('p');
 paragraph.style.color = 'lightblue'
@@ -13,13 +12,13 @@ paragraph.innerText = 'Lorem ipsum dolor amet viral meh selfies drinking vinegar
 
 
 const body = document.querySelector('body');
-body.style.backgroundImage = "url('http://www.tioxic.com/wp-content/uploads/trex_4.jpg')";
+body.style.backgroundImage = "url('https://media.giphy.com/media/xxVMim5UWleHC/giphy.gif')";
 
 const item1 = document.querySelectorAll('#item-1');
+item1[1].style.fontsize = '60px'
 item1[0].style.color = "red"
 item1[1].style.color = "red"
-item1[0].style.fontsize = "60px"
-item1[1].style.fontsize = "30px"
+
 
 const item2 = document.querySelectorAll('#item-2');
 item2[0].style.color = "green"
@@ -34,5 +33,5 @@ const item5 = document.querySelectorAll('#item-5');
 item5[0].style.color = "maroon"
 
 
-const form = document.querySelector('textarea');
-form.stye.b = 'blue'
+const form = document.querySelector('form');
+form.stye.padding = '50px';
