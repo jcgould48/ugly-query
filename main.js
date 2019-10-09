@@ -1,17 +1,17 @@
 const headline = document.querySelector('h1');
 
-headline.style.fontFamily = "Impact,arial,sans-serif";
+headline.style.fontFamily = "Impact,ComicSansMs,sans-serif";
 headline.style.color = 'brown';
 headline.style.textShadow = '22px 2px 5px green';
 headline.style.letterSpacing= '-30px';
 
 const paragraph = document.querySelector('p');
-paragraph.style.color = 'lightblue'
+paragraph.style.color = 'pink'
 paragraph.style.fontSize = '50px'
 paragraph.innerText = 'Lorem ipsum dolor amet viral meh selfies drinking vinegar, intelligentsia poke flannel twee paleo enamel pin cray. Banjo celiac crucifix, kickstarter la croix air plant jianbing hashtag vinyl hell of man bun selvage schlitz banh mi. Tacos hella raclette quinoa blog, williamsburg adaptogen tbh. Hexagon af stumptown lumbersexual synth gentrify quinoa enamel pin celiac master cleanse. Truffaut typewriter shoreditch, semiotics iceland mixtape taxidermy umami distillery austin hashtag. Food truck synth wayfarers, street art banh mi actually authentic. Bitters tousled tattooed vegan neutra pug hell of fixie chia unicorn letterpress.'
 
 const h3 = document.querySelector('h3');
-h3.style.color = 'yellow'
+h3.style.color = 'lightBlue'
 h3.style.fontSize= '50px'
 
 
@@ -44,6 +44,6 @@ item5[0].style.color = "maroon"
 const buttondiv = document.createElement('div');
 buttondiv.innerText = 'I love buttons'
 buttondiv.style.backgroundColor = 'blue'
-buttondiv.style.fontSize = '30px'
+buttondiv.style.fontSize = '50px'
 const button = document.querySelector('button')
 button.appendChild(buttondiv);
